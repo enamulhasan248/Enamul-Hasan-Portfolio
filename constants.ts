@@ -50,7 +50,7 @@ export const PROJECTS = [
     title: "Jatra: Smart City Bus Tracking",
     description: "Solved chronic public transit unpredictability by engineering a location interpolation algorithm to fix GPS 'teleporting' glitches. Reduced operational costs by utilizing Firebase over standard GPS APIs.",
     tech: ["Android (Java)", "Firebase Realtime DB", "Cloud Functions"],
-    image: "/jatralogo.png",
+    image: "jatralogo.png",
     links: { github: "#", live: "#" } // Placeholders as per prompt not having specific project URLs
   },
   {
@@ -58,7 +58,7 @@ export const PROJECTS = [
     title: "UniEvent: Campus Event Management",
     description: "Full-stack app for university events implementing RBAC for Admins/Students. Engineered a real-time QR Code Attendance System for instant webcam verification.",
     tech: ["FastAPI", "Python", "PostgreSQL", "Angular", "Bootstrap 5"],
-    image: "/UniEvent_Preview.jpg",
+    image: "UniEvent_Preview.jpg",
     links: { github: "#", live: "#" }
   }
 ];
@@ -74,6 +74,6 @@ export const EDUCATION = [
 ];
 
 export const LANGUAGES = [
-    { name: "Bangla", level: "Native" },
-    { name: "English", level: "Fluent" }
+  { name: "Bangla", level: "Native" },
+  { name: "English", level: "Fluent" }
 ];
