@@ -8,7 +8,7 @@ export const Projects: React.FC = () => {
     <section id="projects" className="py-20 bg-white dark:bg-slate-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -33,8 +33,8 @@ export const Projects: React.FC = () => {
               {/* Image Section */}
               <div className="relative h-64 overflow-hidden">
                 <div className="absolute inset-0 bg-blue-600/10 dark:bg-slate-950/20 z-10 group-hover:bg-transparent transition-colors duration-500" />
-                <img 
-                  src={project.image} 
+                <img
+                  src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 ease-in-out filter grayscale group-hover:grayscale-0"
                 />
@@ -47,10 +47,10 @@ export const Projects: React.FC = () => {
                     {project.title}
                   </h3>
                   <div className="flex space-x-3">
-                    <a href={project.links.github} className="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white transition-colors" title="View Code">
+                    <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white transition-colors" title="View Code">
                       <Github size={20} />
                     </a>
-                    <a href={project.links.live} className="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white transition-colors" title="Live Demo">
+                    <a href={project.links.live} target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white transition-colors" title="Live Demo">
                       <ExternalLink size={20} />
                     </a>
                   </div>
@@ -62,8 +62,8 @@ export const Projects: React.FC = () => {
 
                 <div className="mt-auto flex flex-wrap gap-2">
                   {project.tech.map((t) => (
-                    <span 
-                      key={t} 
+                    <span
+                      key={t}
                       className="px-3 py-1 text-xs font-semibold rounded-full bg-blue-50 dark:bg-slate-800 text-blue-700 dark:text-neon-violet border border-blue-100 dark:border-slate-700"
                     >
                       {t}

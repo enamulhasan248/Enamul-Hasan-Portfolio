@@ -59,7 +59,7 @@ export const PROJECTS = [
     description: "LedgerSync is a comprehensive financial dashboard application that allows users to track global stocks, cryptocurrencies, and Dhaka Stock Exchange (DSE) assets in real-time.",
     tech: ["React.js", "Node.js", "Tailwind CSS", "Real-time API"],
     image: "ledgersync-preview.png",
-    links: { github: "#", live: "#" }
+    links: { github: "https://github.com/enamulhasan248/LedgerSync-A-Smart-Crypto-Finance-Dashboard", live: "#" }
   },
   {
     id: 3,
