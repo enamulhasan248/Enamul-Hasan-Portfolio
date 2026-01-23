@@ -55,6 +55,14 @@ export const PROJECTS = [
   },
   {
     id: 2,
+    title: "LedgerSync: Smart Crypto & Finance Dashboard",
+    description: "LedgerSync is a comprehensive financial dashboard application that allows users to track global stocks, cryptocurrencies, and Dhaka Stock Exchange (DSE) assets in real-time.",
+    tech: ["React.js", "Node.js", "Tailwind CSS", "Real-time API"],
+    image: "ledgersync-preview.png",
+    links: { github: "#", live: "#" }
+  },
+  {
+    id: 3,
     title: "UniEvent: Campus Event Management",
     description: "Full-stack app for university events implementing RBAC for Admins/Students. Engineered a real-time QR Code Attendance System for instant webcam verification.",
     tech: ["FastAPI", "Python", "PostgreSQL", "Angular", "Bootstrap 5"],
