@@ -69,8 +69,8 @@ export const Hero: React.FC = () => {
             Contact Me
           </a>
           <a
-            href="Enamul_Hasan_CV.pdf"
-            download="Enamul_Hasan_CV.pdf"
+            href="Enamul_Hasan_CV_3.pdf"
+            download="Enamul_Hasan_CV_3.pdf"
             className="inline-flex items-center justify-center px-8 py-3 border-2 border-slate-200 dark:border-slate-700 text-base font-medium rounded-full text-slate-700 dark:text-slate-200 hover:border-blue-500 dark:hover:border-neon-violet hover:text-blue-500 dark:hover:text-neon-violet bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm transition-all"
           >
             <Download className="mr-2 h-5 w-5" />
