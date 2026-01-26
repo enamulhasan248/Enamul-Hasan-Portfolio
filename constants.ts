@@ -25,12 +25,12 @@ export const SKILL_CATEGORIES = [
   {
     title: "Web Development",
     icon: Globe,
-    skills: ["Angular", "React.js", "FastAPI", "Node.js", "Django"]
+    skills: ["Express.js", "React.js", "Node.js", "Angular", "Django", "FastAPI", "RestfulAPI"]
   },
   {
     title: "Mobile Development",
     icon: Smartphone,
-    skills: ["Flutter", "Android (Java/XML)"]
+    skills: ["Flutter", "React Native", "Android (Java, XML)"]
   },
   {
     title: "Databases",
